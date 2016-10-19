@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
     <groupId>com.tibco.projet</groupId>
     <artifactId>project-shared</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>project-shared</name>
   <packaging>bwmodule</packaging>
   
@@ -11,7 +11,7 @@
         <connection>scm:git:git://github.com/hamzaMdz/tibcoRepo1</connection>
         <developerConnection>scm:git:git@github.com:hamzaMdz/tibcoRepo1</developerConnection>
         <url>https://github.com/hamzaMdz/tibcoRepo1</url>
-      <tag>HEAD</tag>
+      <tag>projectTest-parent-1.1</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
