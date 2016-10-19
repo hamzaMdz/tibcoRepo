@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.test.fc</groupId>
+    <artifactId>projectTest</artifactId>
+    <version>1.1-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+  <artifactId>projectTest-app</artifactId>
+  <packaging>bwear</packaging>
+  <properties>
+		  <deploymentConfigfil>projectTest/deployment.properties</deploymentConfigfil>
+		  <propertiesConfigfile>projectTest/configFile.properties</propertiesConfigfile>
+  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.tibco.plugins</groupId>
+        <artifactId>fc-bw6-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <deploymentConfigfile>${deploymentConfigfil}</deploymentConfigfile>
+          <propertiesConfigfile>${propertiesConfigfile}</propertiesConfigfile>
+		</configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

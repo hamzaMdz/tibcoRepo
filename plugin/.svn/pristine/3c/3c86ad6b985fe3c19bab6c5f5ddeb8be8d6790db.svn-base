@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: .
+TIBCO-BW-SharedModule: META-INF/module.bwm
+Bundle-Name: project-shared Module
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)"
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-Version: 6.3.2 V30 2016-04-28
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+Provide-Capability: com.tibco.bw.module; name="project-shared"; versio
+ n:Version="1.0.0"
+Bundle-Version: 1.0.0.201610181822
+Bundle-ManifestVersion: 2
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Bundle-SymbolicName: project-shared
+

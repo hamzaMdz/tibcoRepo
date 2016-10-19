@@ -1,0 +1,15 @@
+#EAR Deployment Properties. Pass -DdeploymentConfig.file=<File Location/File Name> if you are running from Command Line. Otherwise add 'deploymentConfig.file' property to the POM File 
+#Thu Sep 22 11:34:23 WEST 2016
+deployToAdmin=true
+agentHost=localhost
+agentPort=8079
+domain=projectTest-Domain
+domainDesc=projectTest Domaine
+appSpace=projectTest-AppSpace
+appSpaceDesc=projectTest appSpace
+appNode=projectTest-AppNode
+appNodeDesc=projectTest appNode
+osgiPort=4567
+httpPort=6321
+redeploy=true
+profile=default.substvar
