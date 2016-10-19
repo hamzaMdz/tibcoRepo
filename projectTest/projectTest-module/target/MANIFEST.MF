@@ -5,7 +5,7 @@ Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-Version: 6.3.2 V30 2016-04-28
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 Bundle-ClassPath: .
-Bundle-Version: 1.0.0.201610191630
+Bundle-Version: 1.0.0.201610191728
 Bundle-Name: projectTest-modulee Module
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
 Bundle-ManifestVersion: 2
