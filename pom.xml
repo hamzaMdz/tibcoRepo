@@ -8,7 +8,15 @@
     <modules>
         <module>projet1</module>
     </modules>
-    <build>
+	
+	
+	<scm>
+        <connection>scm:git:git://github.com/hamzaMdz/tibcoRepo</connection>
+        <developerConnection>scm:git:git@github.com:hamzaMdz/tibcoRepo</developerConnection>
+        <url>https://github.com/hamzaMdz/tibcoRepo</url>
+      <tag>HEAD</tag>
+	 </scm>
+	 <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
