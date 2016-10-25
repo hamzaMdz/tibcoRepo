@@ -11,9 +11,9 @@
 	
 	
 	<scm>
-        <connection>scm:git:git://github.com/hamzaMdz/tibcoRepo1</connection>
-        <developerConnection>scm:git:git@github.com:hamzaMdz/tibcoRepo1</developerConnection>
-        <url>https://github.com/hamzaMdz/tibcoRepo1</url>
+        <connection>scm:git:git://github.com/hamzaMdz/tibcoRepo</connection>
+        <developerConnection>scm:git:git@github.com:hamzaMdz/tibcoRepo</developerConnection>
+        <url>https://github.com/hamzaMdz/tibcoRepo</url>
       <tag>HEAD</tag>
 	 </scm>
 	 <build>
