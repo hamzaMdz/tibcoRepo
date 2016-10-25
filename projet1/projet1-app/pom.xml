@@ -4,7 +4,7 @@
   <parent>
     <groupId>come.tibco.projet</groupId>
     <artifactId>projet1</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
   <artifactId>projet1-app</artifactId>

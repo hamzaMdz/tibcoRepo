@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
     <groupId>com.tibco.projet</groupId>
     <artifactId>projet-shared1</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <name>projet-shared1</name>
   <packaging>bwmodule</packaging>
     <scm>
         <connection>scm:git:git://github.com/hamzaMdz/shared1</connection>
         <developerConnection>scm:git:git@github.com:hamzaMdz/shared1</developerConnection>
         <url>https://github.com/hamzaMdz/shared1</url>
-      <tag>projet1-parent-1.0</tag>
+      <tag>HEAD</tag>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
